@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D87CB24B2E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D87CB24A2E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D87CB2502E0FF1B700DB3C27 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87CB24F2E0FF1B700DB3C27 /* Messages.framework */; };
+		D87CB2772E16E9CC00DB3C27 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D87CB2762E16E9C400DB3C27 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		D87CB2412E0FF1B600DB3C27 /* Emotion Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emotion Wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87CB24A2E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Emotion Wheel MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87CB24F2E0FF1B700DB3C27 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		D87CB2762E16E9C400DB3C27 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -82,6 +84,7 @@
 		D87CB23A2E0FF1B600DB3C27 = {
 			isa = PBXGroup;
 			children = (
+				D87CB2762E16E9C400DB3C27 /* README.md */,
 				D87CB2432E0FF1B600DB3C27 /* Emotion Wheel */,
 				D87CB2512E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension */,
 				D87CB24E2E0FF1B700DB3C27 /* Frameworks */,
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87CB2772E16E9CC00DB3C27 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D87CB24B2E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D87CB24A2E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D87CB24B2E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D87CB24A2E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D87CB2502E0FF1B700DB3C27 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87CB24F2E0FF1B700DB3C27 /* Messages.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D87CB24B2E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension.appex in Embed Foundation Extensions */,
+				D87CB24B2E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -36,33 +36,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D87CB2412E0FF1B600DB3C27 /* EmotionsWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionsWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D87CB24A2E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "EmotionsWheel MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87CB2412E0FF1B600DB3C27 /* Emotion Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emotion Wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87CB24A2E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Emotion Wheel MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87CB24F2E0FF1B700DB3C27 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D87CB25A2E0FF1B800DB3C27 /* Exceptions for "EmotionsWheel MessagesExtension" folder in "EmotionsWheel MessagesExtension" target */ = {
+		D87CB25A2E0FF1B800DB3C27 /* Exceptions for "Emotion Wheel MessagesExtension" folder in "Emotion Wheel MessagesExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = D87CB2492E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension */;
+			target = D87CB2492E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D87CB2432E0FF1B600DB3C27 /* EmotionsWheel */ = {
+		D87CB2432E0FF1B600DB3C27 /* Emotion Wheel */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EmotionsWheel;
+			path = "Emotion Wheel";
 			sourceTree = "<group>";
 		};
-		D87CB2512E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension */ = {
+		D87CB2512E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D87CB25A2E0FF1B800DB3C27 /* Exceptions for "EmotionsWheel MessagesExtension" folder in "EmotionsWheel MessagesExtension" target */,
+				D87CB25A2E0FF1B800DB3C27 /* Exceptions for "Emotion Wheel MessagesExtension" folder in "Emotion Wheel MessagesExtension" target */,
 			);
-			path = "EmotionsWheel MessagesExtension";
+			path = "Emotion Wheel MessagesExtension";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -82,8 +82,8 @@
 		D87CB23A2E0FF1B600DB3C27 = {
 			isa = PBXGroup;
 			children = (
-				D87CB2432E0FF1B600DB3C27 /* EmotionsWheel */,
-				D87CB2512E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension */,
+				D87CB2432E0FF1B600DB3C27 /* Emotion Wheel */,
+				D87CB2512E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension */,
 				D87CB24E2E0FF1B700DB3C27 /* Frameworks */,
 				D87CB2422E0FF1B600DB3C27 /* Products */,
 			);
@@ -92,8 +92,8 @@
 		D87CB2422E0FF1B600DB3C27 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D87CB2412E0FF1B600DB3C27 /* EmotionsWheel.app */,
-				D87CB24A2E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension.appex */,
+				D87CB2412E0FF1B600DB3C27 /* Emotion Wheel.app */,
+				D87CB24A2E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D87CB2402E0FF1B600DB3C27 /* EmotionsWheel */ = {
+		D87CB2402E0FF1B600DB3C27 /* Emotion Wheel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D87CB2612E0FF1B800DB3C27 /* Build configuration list for PBXNativeTarget "EmotionsWheel" */;
+			buildConfigurationList = D87CB2612E0FF1B800DB3C27 /* Build configuration list for PBXNativeTarget "Emotion Wheel" */;
 			buildPhases = (
 				D87CB23F2E0FF1B600DB3C27 /* Resources */,
 				D87CB2602E0FF1B800DB3C27 /* Embed Foundation Extensions */,
@@ -122,18 +122,18 @@
 				D87CB24D2E0FF1B700DB3C27 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D87CB2432E0FF1B600DB3C27 /* EmotionsWheel */,
+				D87CB2432E0FF1B600DB3C27 /* Emotion Wheel */,
 			);
-			name = EmotionsWheel;
+			name = "Emotion Wheel";
 			packageProductDependencies = (
 			);
 			productName = EmotionsWheel;
-			productReference = D87CB2412E0FF1B600DB3C27 /* EmotionsWheel.app */;
+			productReference = D87CB2412E0FF1B600DB3C27 /* Emotion Wheel.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
-		D87CB2492E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension */ = {
+		D87CB2492E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D87CB25B2E0FF1B800DB3C27 /* Build configuration list for PBXNativeTarget "EmotionsWheel MessagesExtension" */;
+			buildConfigurationList = D87CB25B2E0FF1B800DB3C27 /* Build configuration list for PBXNativeTarget "Emotion Wheel MessagesExtension" */;
 			buildPhases = (
 				D87CB2462E0FF1B700DB3C27 /* Sources */,
 				D87CB2472E0FF1B700DB3C27 /* Frameworks */,
@@ -144,13 +144,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D87CB2512E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension */,
+				D87CB2512E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension */,
 			);
-			name = "EmotionsWheel MessagesExtension";
+			name = "Emotion Wheel MessagesExtension";
 			packageProductDependencies = (
 			);
 			productName = "EmotionsWheel MessagesExtension";
-			productReference = D87CB24A2E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension.appex */;
+			productReference = D87CB24A2E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension.appex */;
 			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D87CB23E2E0FF1B600DB3C27 /* Build configuration list for PBXProject "EmotionsWheel" */;
+			buildConfigurationList = D87CB23E2E0FF1B600DB3C27 /* Build configuration list for PBXProject "Emotion Wheel" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -185,8 +185,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D87CB2402E0FF1B600DB3C27 /* EmotionsWheel */,
-				D87CB2492E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension */,
+				D87CB2402E0FF1B600DB3C27 /* Emotion Wheel */,
+				D87CB2492E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -221,7 +221,7 @@
 /* Begin PBXTargetDependency section */
 		D87CB24D2E0FF1B700DB3C27 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D87CB2492E0FF1B700DB3C27 /* EmotionsWheel MessagesExtension */;
+			target = D87CB2492E0FF1B700DB3C27 /* Emotion Wheel MessagesExtension */;
 			targetProxy = D87CB24C2E0FF1B700DB3C27 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -235,8 +235,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D596QL4M8J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "EmotionsWheel MessagesExtension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = EmotionsWheel;
+				INFOPLIST_FILE = "Emotion Wheel MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Emotion Wheel";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -244,7 +244,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nathan.EmotionsWheel.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.Emotion-Wheel.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -261,8 +261,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D596QL4M8J;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "EmotionsWheel MessagesExtension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = EmotionsWheel;
+				INFOPLIST_FILE = "Emotion Wheel MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Emotion Wheel";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -270,7 +270,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nathan.EmotionsWheel.MessagesExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.Emotion-Wheel.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -408,11 +408,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D596QL4M8J;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Emotion Wheel";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nathan.EmotionsWheel;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.Emotion-Wheel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -428,11 +429,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D596QL4M8J;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Emotion Wheel";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Nathan.EmotionsWheel;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.Emotion-Wheel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D87CB23E2E0FF1B600DB3C27 /* Build configuration list for PBXProject "EmotionsWheel" */ = {
+		D87CB23E2E0FF1B600DB3C27 /* Build configuration list for PBXProject "Emotion Wheel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D87CB25E2E0FF1B800DB3C27 /* Debug */,
@@ -452,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D87CB25B2E0FF1B800DB3C27 /* Build configuration list for PBXNativeTarget "EmotionsWheel MessagesExtension" */ = {
+		D87CB25B2E0FF1B800DB3C27 /* Build configuration list for PBXNativeTarget "Emotion Wheel MessagesExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D87CB25C2E0FF1B800DB3C27 /* Debug */,
@@ -461,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D87CB2612E0FF1B800DB3C27 /* Build configuration list for PBXNativeTarget "EmotionsWheel" */ = {
+		D87CB2612E0FF1B800DB3C27 /* Build configuration list for PBXNativeTarget "Emotion Wheel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D87CB2622E0FF1B800DB3C27 /* Debug */,
